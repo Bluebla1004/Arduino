@@ -1,17 +1,17 @@
 int Pin13 = 13;
 int delayPeriod = 500;
 
-void setup() 
+void setup()
 {
     pinMode(Pin13, OUTPUT);
 }
 
 void loop() 
 {
-    digitalWrite(Pin13, HIGH);   
-    delay(delayPeriod);         
+    digitalWrite(Pin13, HIGH);
+    delay(delayPeriod);
 
-    digitalWrite(Pin13, LOW); 
+    digitalWrite(Pin13, LOW);
     delay(delayPeriod);
 
     delayPeriod = delayPeriod + 100;
